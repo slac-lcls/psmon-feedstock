@@ -11,11 +11,16 @@ source:
 
 build:
   skip: True  # [win or osx]
+  noarch: python
   number: 0
+  script:
+    - "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   build:
     - python
+    - setuptools
+    - pip
   run:
     - python
     - pyqtgraph
