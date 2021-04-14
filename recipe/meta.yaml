@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/slaclab/{{ name }}/archive/v{{ version }}.tar.gz 
+  url: https://github.com/slaclab/{{ name }}/archive/{{ version }}.tar.gz 
   sha256: 836c808fc6737aafbe34d0336f44a15872d3fb7fc9c978e30344c63db60c7c9a
 
 build:
