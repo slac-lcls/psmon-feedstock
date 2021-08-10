@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/slaclab/{{ name }}/archive/{{ version }}.tar.gz 
-  sha256: 836c808fc6737aafbe34d0336f44a15872d3fb7fc9c978e30344c63db60c7c9a
+  sha256: fb76948a80e459df041456e5e3bc0276a298215a73fa1fc7a9b0b68bda697e94
 
 build:
   skip: True  # [win or osx]
   noarch: python
-  number: 1
+  number: 2
   script:
     - "{{ PYTHON }} -m pip install . -vv"
 
