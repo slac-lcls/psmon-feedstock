@@ -1,5 +1,5 @@
 {% set name = "psmon" %}
-{% set version = "1.0.4" %}
+{% set version = "1.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
 build:
   skip: True  # [win or osx]
   noarch: python
-  number: 5
+  number: 1
   script:
     - "{{ PYTHON }} -m pip install . -vv"
 
