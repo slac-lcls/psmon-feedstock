@@ -12,7 +12,7 @@ source:
 build:
   skip: True  # [win or osx]
   noarch: python
-  number: 5
+  number: 6
   script:
     - "{{ PYTHON }} -m pip install . -vv"
 
