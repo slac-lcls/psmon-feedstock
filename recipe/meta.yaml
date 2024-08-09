@@ -1,5 +1,5 @@
 {% set name = "psmon" %}
-{% set version = "1.0.7" %}
+{% set version = "1.0.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/slaclab/{{ name }}/archive/{{ version }}.tar.gz 
-  sha256: fb341c7967e6606a43d25535d645bcaae42f0bf3ead368e3123cce14f9c686b9
+  sha256: 3aca89a600b84e7ac41f9059ea1641b93e88ac5eee39bdfa0841577bf6bf5345
 
 build:
   skip: True  # [win or osx]
